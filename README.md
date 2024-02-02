@@ -27,6 +27,10 @@ dvc init
 ```
 ```bash
 dvc add data_given/winequality.csv
+
+dvc repro -> to run the pipeline
+dvc metrics show -> to see params.json and metrics.json
+dvc metrics diff -> to see difference old and new metrics (accuracy , rmse, etc)
 ```
 ```bash
 git add .
@@ -61,7 +65,7 @@ pytest -v
 
 setup commands -
 ```bash
-pip install -e . 
+pip install -e .  # installs local packages present in dir (setup.py file)
 ```
 
 build your own package commands- 

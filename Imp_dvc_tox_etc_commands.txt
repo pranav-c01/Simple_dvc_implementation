@@ -1,0 +1,6 @@
+dvc repro -> to run the pipeline
+dvc metrics show -> to see params.json and metrics.json
+dvc metrics diff -> to see difference old and new metrics (accuracy , rmse, etc)
+tox -r -> rerun create venv after updation of tox.ini
+tox -> create venv from tox.ini file specifications
+pytest -v -> run tests folder files 
