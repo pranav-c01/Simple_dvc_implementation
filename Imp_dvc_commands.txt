@@ -1,0 +1,3 @@
+dvc repro -> to run the pipeline
+dvc metrics show -> to see params.json and metrics.json
+dvc metrics diff -> to see difference old and new metrics (accuracy , rmse, etc)
