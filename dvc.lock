@@ -52,5 +52,5 @@ stages:
     cmd: python src/log_production_model.py --config=params.yaml
     deps:
     - path: src/log_production_model.py
-      md5: d41d8cd98f00b204e9800998ecf8427e
-      size: 0
+      md5: d3168784871d8621e1d93bd97bae4394
+      size: 1905
